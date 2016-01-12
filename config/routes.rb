@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   # mount ActionCable.server => '/cable'
   
 	
-#	mount API::Base, at: '/'
+	mount API::Base, at: '/'
 	mount GrapeSwaggerRails::Engine, at: "/documentation"
 end
