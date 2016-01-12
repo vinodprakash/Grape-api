@@ -1,6 +1,6 @@
 module API
 	module V1
-		class Gradutes <Grape::API
+		class Graduates < Grape::API
 			include API::V1::Defaults
 			resource :graduates do
 				desc "return all Graduates"
