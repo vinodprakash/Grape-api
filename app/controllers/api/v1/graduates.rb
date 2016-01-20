@@ -12,6 +12,8 @@ module API
 				desc "Return a graduate"
 				params do
 					requires :id, type: String, desc: "ID of the graduate"
+					requires :f_name, type: String, desc: "First Name of the graduate"
+					requires :l_name, type: String, desc: "Last Name of the graduate"
 
 				end
 
